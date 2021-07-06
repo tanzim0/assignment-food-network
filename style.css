@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+}
+
+.flexible-area{
+    display: flex;
+    
+    margin-bottom: 100px;
+}
+.banner-left-padding{
+    padding-left: 100px;
+}
+
+
+.div-item-width{
+    width: 50%;
+}
+
+
+.div-item-width img{
+    width: 80%;
+   
+}
+.owner-profile-area{
+    background-image: url(male/owner-bg.jpg);
+}
+
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.paragraph-margin{
+    margin-bottom: 60px;
+}
+.button-design{
+    text-decoration: none;
+    background-image:linear-gradient(lightblue,rgb(0, 149, 207));
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px 40px;
+    border-radius: 40px;
+
+}
+.blue-color{
+    color: dodgerblue;
+}
+
+.grey-color{
+    color: grey;
+}
