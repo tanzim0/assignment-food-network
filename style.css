@@ -1,12 +1,13 @@
 body{
     font-family: 'Arimo', sans-serif;
     margin: 0;
+   
 }
 
 .flexible-area{
     display: flex;
     
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .banner-left-padding{
     padding-left: 100px;
@@ -26,6 +27,34 @@ body{
     background-image: url(male/owner-bg.jpg);
 }
 
+.about-me{
+    margin: auto;
+}
+
+.recipie-item{
+    width: 30%;
+    margin-left: 1.76%;
+    margin-right: 1.67%;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 30px;
+    padding: 20px;
+
+    
+}
+
+
+.recipie-margin{
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+ .recipie-item img{
+     height: 300px;
+     width: 100%;
+     border-radius: 30px;
+     
+
+ }
 
 h1{
     font-size: 60px;
@@ -35,9 +64,11 @@ h1{
 h2{
     font-size: 40px;
 }
-
+h3{
+    font-size: 35px;
+}
 .paragraph-margin{
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .button-design{
     text-decoration: none;
@@ -47,7 +78,28 @@ h2{
     font-size: 25px;
     padding: 20px 40px;
     border-radius: 40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px lightskyblue;
 
+}
+.social-media{
+    margin-bottom: 60px;
+    width: 50%;
+    
+    
+}
+
+.recipie-top{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
 }
 .blue-color{
     color: dodgerblue;
